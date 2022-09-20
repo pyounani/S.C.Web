@@ -1,0 +1,85 @@
+/*         헤더 영역          */
+
+/* 배너 */
+#banner img{
+  width: 100%;
+  min-width: 920px;
+}
+
+/*         메인 영역          */
+main {
+  min-width: 920px;
+}
+/* about us */
+#aboutUs {
+  text-align: center;
+}
+
+#aboutUs h1 {
+  line-height: 50px;
+  margin: 45px auto;
+
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#aboutUs p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+/* about us Menubar */
+#Menubar {
+  display: flex;
+  justify-content: center;
+}
+
+#Menubar div {
+  float: left;
+  padding: 5px 100px;
+  margin: 60px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+/* sub contents */
+#mContents {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#m1, #m2 {
+  text-align: center;
+}
+
+#m1 img, #m2 img {
+  width: 80%;
+}
+
+/* sns 로고 삽입 */
+#m3 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#m3 li {
+  background-position-y: center;
+  background-size: 30px;
+  padding: 0px 50px;
+}
+
+#kakao {
+  background: url(../image/kakao.png) no-repeat;
+}
+
+#instar {
+  background: url(../image/instargram.jfif) no-repeat;
+}
+
+#every {
+  background: url(../image/everytime.jfif) no-repeat;
+}

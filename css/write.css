@@ -1,0 +1,32 @@
+/*         메인 영역          */
+main h1 {
+  display: inline-block;
+  margin: 10px;
+
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 50px;;
+  letter-spacing: 0.05em;
+
+  color: black;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  height: 42px;
+  margin: 15px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: right;
+}
+
+input, textarea {
+  width: 70%;
+  min-width: 400px;
+  height: 45px;
+  margin: 15px;
+}
